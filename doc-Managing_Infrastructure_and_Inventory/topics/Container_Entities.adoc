@@ -133,9 +133,24 @@ Any container entity with the OpenShift `zone` label will be tagged automaticall
 You can use these tags to create reports. See https://access.redhat.com/documentation/en/red-hat-cloudforms/4.7/single/monitoring-alerts-and-reporting/[Monitoring, Alerts, and Reporting] for details on creating reports. 
 
 
+== Limiting Viewable Container Objects with Tags
+
+You can assign tags to control which container objects users or groups can view.
+
+For example, by setting the `Team_A_Templates` tag to the `Team-A` group, users of this group will only see the templates with the same tag.
+
+Configure this with the following steps:
+
+. INSERT STEPS HOW 
 
 
 
+To test your configuration:
+
+. Log in to {product-title_short} as `user1`, who is part of the `Team-A` group.
+. Navigate to menu:Compute[Containers > Container Templates] to view a list of available templates.
+
+As a result, `user1` can only see the templates previously tagged with `Team_A_Templates`.
 
 
 
