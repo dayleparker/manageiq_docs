@@ -2998,11 +2998,9 @@ A PostgreSQL superuser or user with _Replication_ permissions are required to pe
 
 [NOTE]
 ====
-*-h* _hostname_    
-Specifies the IP address of the database server. 
+*-h* _hostname_ specifies the IP address of the database server. 
 
-*-D* _filename_    
-Specifies the name of the directory created to contain the backup.
+*-D* _filename_ specifies the name of the directory created to contain the backup.
 ====
 
 
